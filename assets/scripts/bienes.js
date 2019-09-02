@@ -37,8 +37,8 @@ function RegistrarBienes() {
   e = document.getElementById("cbbTipoNegocio");//
   var lcTipoNegocio = e.options[e.selectedIndex].value; 
 
-  var lcAgua = document.getElementById("cAgua").checked == true ? "1" : "2";//
-  var lcLuz = document.getElementById("cLuz").checked == true ? "1" : "2";//
+  var lcAgua = document.getElementById("cAgua").checked == true ? "1" : "0";//
+  var lcLuz = document.getElementById("cLuz").checked == true ? "1" : "0";//
 
   var today = new Date();
   var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
