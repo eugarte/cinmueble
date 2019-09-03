@@ -59,6 +59,7 @@ function RegistrarBienes() {
   loBien.cTipoNegocio       =lcTipoNegocio;
   loBien.cComentarioLlamada =lcComentario;
   loBien.cAntiguedad        =lcAntiguedad;
+  loBien.cEstado = "Registrado";
 
   if (ValidarCampos(loBien) == "1")
   {
